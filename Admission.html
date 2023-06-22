@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions</title>
+  <style>
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        height: 100vh;
+        font-family: 'Barlow', sans-serif;
+        font-weight: bolder;
+      }
+
+      ul{
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden ;
+        background-color: #3C4048;
+      }
+
+      
+      a{
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        color: white;
+        text-decoration: none;
+      }
+
+      p, form{
+        font-weight: normal;
+      }
+
+      li{
+        float: left;
+      }
+
+      li.right{
+        float: right;
+        font-size: small;
+        font-weight: normal;
+      }
+
+      a.navbar:hover{
+        font-size: large;
+      }
+
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #3C4048;
+        color: white;
+        text-align: center;
+        height: 47px;
+       
+      }
+
+      div.footer p{
+        padding-top: 13px;
+      }
+      
+      ul.top li a.active{
+        color: red;
+      }
+
+      div.information{
+        background-color: lightgray;
+        height: 115px;
+        margin: 20px 15px;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      div.information p{
+        padding-top: 10px;
+      }
+
+      div.admission-form{
+        background-color: lightgray;
+        margin: 20px 15px;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      input, textarea{
+        width: 100%;
+      }
+
+      .btn {
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 15px;
+        background: #000000;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background: #3cb0fd;
+        text-decoration: none;
+        border-color: #3cb0fd;
+      }
+
+      form{
+        margin-top: 20px;
+      }
+
+      input, textarea{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 30px;
+      }
+
+      input.message{
+        height: 50px;
+      }
+
+      .btn{
+        margin-bottom: 10px;
+      }
+
+
+      
+     
+  </style>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+
+    <ul class="top">
+      <li><a href="Home.html" class="navbar ">AIMS College</a></li>
+      <li class="right navbar"><a href="Contact.html" class="navbar ">Contact</a></li>
+      <li class="right "><a href="Admission.html" class="navbar active">Admissions</a></li>
+      <li class="right "><a href="Courses.html" class="navbar">Courses</a></li>
+      <li class="right"><a href="Home.html" class="navbar">Home</a></li>
+    </ul>
+
+    <div class="information">
+      <h3>Admission Information</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque repudiandae, eveniet doloribus illum maxime accusantium iusto minus amet officiis totam sit qui quae hic ratione aliquid fugit at! Magni.</p>
+    </div>
+
+    <div class="admission-form">
+      <h3> Admission Form</h3>
+      <form>
+        <span>Name: </span> <br>
+        <input type="text"> <br>
+        <span>Email:</span> <br>
+        <input type="email"> <br>
+        <span>Phone: </span> <br>
+        <input type="number"> <br>
+        <span>Message: </span> <br>
+        <input type="text" class="message">
+
+      </form>
+
+
+      <button class="btn">Submit</button>
+    </div>
+
+    
+
+    <div class="footer">
+      <p>© 2023 AIMS College. All rights reserved.</p>
+    </div>
+  
+  
+
+</body>
+</html>
